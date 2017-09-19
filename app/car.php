@@ -59,12 +59,13 @@ class Car
 	}
 }
 
+
 class NIVA extends Car
 {
 	use TransmissionManual;
 	public $distance = 40;
 	public $speed = 40;
-	private $direction = 'Назад';
+	private $direction = 'Вперед';
 
 	public function __construct()
 	{
